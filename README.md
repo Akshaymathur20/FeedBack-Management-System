@@ -8,7 +8,7 @@ This project is a simple feedback management system consisting of a backend serv
 # Frontend
 
 The frontend is a React application that provides a form for submitting feedback and a list to display all feedback entries. It communicates with the backend API using Axios.
-![Frontend](https://github.com/Akshaymathur20/Feedback-Management-System/assets/80681817/5bc4207f-42f4-4247-b79e-3944347fcd0a)
+![Frontend](https://github.com/Akshaymathur20/Feedback-Management-System/assets/80681817/80c337e8-936b-4051-a1ba-97e8f1515a71)
 
 
 # Backened
