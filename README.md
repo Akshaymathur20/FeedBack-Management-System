@@ -5,18 +5,23 @@ This project is a simple feedback management system consisting of a backend serv
 
 # Project Structure
 
+# Frontend
+
+The frontend is a React application that provides a form for submitting feedback and a list to display all feedback entries. It communicates with the backend API using Axios.
+![Frontend](https://github.com/Akshaymathur20/Feedback-Management-System/assets/80681817/5bc4207f-42f4-4247-b79e-3944347fcd0a)
+
+
 # Backened
 
 The backend is responsible for handling API requests and storing feedback entries in an in-memory data structure. It is built using Node.js, Express, and TypeScript. No external in-memory storage solutions like Redis are used.
 
+![backend](https://github.com/Akshaymathur20/Feedback-Management-System/assets/80681817/7afcfe38-adc9-4a9c-bf51-4b61dc6b2bac)
 
 Endpoints:
 
-GET /feedback: Retrieve all feedback entries with pagination support.
+GET /feedback: Retrieve all feedback entries.
 POST /feedback: Submit new feedback. The request body should contain { name: string, feedback: string }.
 
-# Frontend
-The frontend is a React application that provides a form for submitting feedback and a list to display all feedback entries. It communicates with the backend API using Axios.
 
 
 # Setup and Installation
